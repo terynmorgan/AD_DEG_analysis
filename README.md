@@ -1,3 +1,4 @@
+Fall 2023 INFO-B 627 Advanced Seminar 
 Names: Teryn Morgan and Nick Dibley 
 
 **Required Files:**<br />
