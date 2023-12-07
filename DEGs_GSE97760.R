@@ -20,7 +20,7 @@ library(edgeR)
 library(impute)
 
 ### IMPORT DATA ### -----------------------------------------------------------
-counts <- read.csv("Final Project/R Code/GSE97760_series_matrix.csv", row.names = 1)
+counts <- read.csv("Data/GSE97760_series_matrix.csv", row.names = 1)
 counts <- data.matrix(counts, rownames.force = TRUE)
 
 ### LIMMA IMPLMENTATION ### ---------------------------------------------------
