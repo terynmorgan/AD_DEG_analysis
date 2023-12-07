@@ -53,7 +53,7 @@ GSE63061_DEGs_names <- row.names(GSE63061_DEGs)
 saveRDS(GSE63061_DEGs_names, file = "GSE63061_DEGs.rds")
 
 ### LINK ENTREZ IDS ### --------------------------------
-GSE63061_df <- read.csv("Final Project/Stuff for converting DEGs to genes/GSE63061_genes.csv", na.strings=c("","NA"))
+GSE63061_df <- read.csv("Data/GSE63061_genes.csv", na.strings=c("","NA"))
 GSE63061_filtered <- subset(GSE63061_df, ID %in% GSE63061_DEGs_names) # nrow = 725 
 
 # Add Entrez_Gene_ID to GSE63060_DEGs
