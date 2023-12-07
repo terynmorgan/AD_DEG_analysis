@@ -3,7 +3,7 @@ AIM: identify and intersect differentially expressed genes (DEGs) from four peri
 
 Names: Teryn Morgan and Nick Dibley 
 
-**Required Files:**
+**Required Files:** /n
 GSE63060_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63060
 GSE4226_series_matrix.csv —> Series matrix for GEO Dataset GSE4226
 GSE63061_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63061
