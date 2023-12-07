@@ -3,25 +3,25 @@ AIM: identify and intersect differentially expressed genes (DEGs) from four peri
 
 Names: Teryn Morgan and Nick Dibley 
 
-**Required Files:** /n
-GSE63060_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63060
-GSE4226_series_matrix.csv —> Series matrix for GEO Dataset GSE4226
-GSE63061_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63061
-GSE97760_series_matrix.csv —> Series matrix for GEO Dataset GSE97760
+**Required Files:**<br />
+GSE63060_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63060<br />
+GSE4226_series_matrix.csv —> Series matrix for GEO Dataset GSE4226<br />
+GSE63061_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63061<br />
+GSE97760_series_matrix.csv —> Series matrix for GEO Dataset GSE97760<br />
 
-GSE63060_genes.csv —> Csv file with GSE63060 metadata
-GSE63061_genes.csv —> Csv file with GSE63061 metadata
-venn_result_upreg_DEGs.txt —> Txt file with consensus DEGs generated from Draw Venn Diagram 
+GSE63060_genes.csv —> Csv file with GSE63060 metadata<br />
+GSE63061_genes.csv —> Csv file with GSE63061 metadata<br />
+venn_result_upreg_DEGs.txt —> Txt file with consensus DEGs generated from Draw Venn Diagram <br />
 
-DEGs_GSE97760.R —> R script to generate DEGs for GSE97760
-DEGs_GSE63061.R —> R script to generate DEGs for GSE63061
-DEGs_GSE63060.R —> R script to generate DEGs for GSE63060
-DEGs_GSE4226.R —> R script to generate DEGs for GSE4226
-Gene_Set_Interaction.R —> R script to generate consensus DEGs from four GEO Datasets
-GO_KEGG_Enrichment.R —> R script to generate GO and KEGG Enrichment on top 100 consensus DEGs
+DEGs_GSE97760.R —> R script to generate DEGs for GSE97760<br />
+DEGs_GSE63061.R —> R script to generate DEGs for GSE63061<br />
+DEGs_GSE63060.R —> R script to generate DEGs for GSE63060<br />
+DEGs_GSE4226.R —> R script to generate DEGs for GSE4226<br />
+Gene_Set_Interaction.R —> R script to generate consensus DEGs from four GEO Datasets<br />
+GO_KEGG_Enrichment.R —> R script to generate GO and KEGG Enrichment on top 100 consensus DEGs<br />
 
-**Required Packages:**
-BiocManager, GEOquery, edgeR, limma, impute, my gene, org.Hs.eg.db, clusterProfiler
+**Required Packages:**<br />
+BiocManager, GEOquery, edgeR, limma, impute, my gene, org.Hs.eg.db, clusterProfiler<br />
 cytoHubba Plugin in Cytoscape 
 
 **Preprocessing:**
