@@ -1,6 +1,3 @@
-# AD_DEG_analysis
-AIM: identify and intersect differentially expressed genes (DEGs) from four peripheral blood microarray datasets between Alzheimer’s Disease (AD) patients and controls
-
 Names: Teryn Morgan and Nick Dibley 
 
 **Required Files:**<br />
