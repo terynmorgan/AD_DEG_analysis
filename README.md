@@ -1,7 +1,7 @@
 **Fall 2023 INFO-B 627 Advanced Seminar** <br />
 Names: Teryn Morgan and Nick Dibley 
 
-**Required Files:**<br />
+**Required Files:** <br />
 GSE63060_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63060<br />
 GSE4226_series_matrix.csv —> Series matrix for GEO Dataset GSE4226<br />
 GSE63061_series_matrix_noMCI.csv —> Series matrix for GEO Dataset GSE63061<br />
@@ -18,7 +18,7 @@ DEGs_GSE4226.R —> R script to generate DEGs for GSE4226<br />
 Gene_Set_Interaction.R —> R script to generate consensus DEGs from four GEO Datasets<br />
 GO_KEGG_Enrichment.R —> R script to generate GO and KEGG Enrichment on top 100 consensus DEGs<br />
 
-**Required Packages:**<br />
+**Required Packages:** <br />
 BiocManager, GEOquery, edgeR, limma, impute, my gene, org.Hs.eg.db, clusterProfiler<br />
 cytoHubba Plugin in Cytoscape 
 
@@ -27,7 +27,7 @@ cytoHubba Plugin in Cytoscape
 2. Run DEGs_GSE63061.R using GSE63061_series_matrix_noMCI.csv and GSE63061_genes.csv 
 3. Run DEGs_GSE63060.R using GSE63060_series_matrix_noMCI.csv and GSE63060_genes.csv 
 4. Run DEGs_GSE4226.R using GSE4226_series_matrix.csv 
-**Output Files: **
+**Output Files:**
   GSE4226_DEGs_EntrezIDs.txt
   GSE63061_DEGs_EntrezIDs.txt
   GSE97760_DEGs_EntrezIDs.txt
@@ -51,7 +51,7 @@ cytoHubba Plugin in Cytoscape
 	GSE97760_DEGs_EntrezIDs.txt
 	GSE97760_DEGs_EntrezIDs.txt
 	venn_result_upreg_DEGs.txt 
-**Output Files: **
+**Output Files:**
 	Top100_upreg_DEG_EntrezIDs.txt
 	Top100_upreg_DEGs.csv
 
